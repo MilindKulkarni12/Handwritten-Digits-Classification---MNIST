@@ -1,9 +1,9 @@
 import numpy as np
-from layer import Layer
+from base_layer import BaseLayer
 from scipy import signal
 
 
-class Convolutional(Layer):
+class ConvolutionalLayer(BaseLayer):
     def __init__(self, input_shape, kernel_size, depth):
         self.input_shape = input_shape
         self.input_depth = input_shape

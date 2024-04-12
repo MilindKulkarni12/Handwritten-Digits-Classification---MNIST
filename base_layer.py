@@ -1,4 +1,4 @@
-class Layer:
+class BaseLayer:
     def __int__(self):
         self.input = None
         self.output = None
