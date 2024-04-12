@@ -1,1 +1,1 @@
-# Handwritten-Digits-Classification---MNIST
+# HandwrittenDigitsClassification-MNIST
